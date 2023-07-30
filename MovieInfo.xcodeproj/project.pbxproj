@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		DE54CDDB2A740D3A00E74E6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE54CDDA2A740D3A00E74E6C /* AppDelegate.swift */; };
 		DE54CDDD2A740D3A00E74E6C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE54CDDC2A740D3A00E74E6C /* SceneDelegate.swift */; };
-		DE54CDDF2A740D3A00E74E6C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE54CDDE2A740D3A00E74E6C /* ViewController.swift */; };
 		DE54CDE22A740D3A00E74E6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE54CDE02A740D3A00E74E6C /* Main.storyboard */; };
 		DE54CDE42A740D3B00E74E6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE54CDE32A740D3B00E74E6C /* Assets.xcassets */; };
 		DE54CDE72A740D3B00E74E6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE54CDE52A740D3B00E74E6C /* LaunchScreen.storyboard */; };
+		DE54CDEF2A740E7600E74E6C /* MovieInfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE54CDEE2A740E7600E74E6C /* MovieInfoTableViewController.swift */; };
+		DE54CDF12A740EAB00E74E6C /* MovieCustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE54CDF02A740EAB00E74E6C /* MovieCustomTableViewCell.swift */; };
+		DE54CDF32A740FB500E74E6C /* MovieInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE54CDF22A740FB500E74E6C /* MovieInfo.swift */; };
+		DE54CDF52A74155100E74E6C /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE54CDF42A74155100E74E6C /* Movie.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DE54CDD72A740D3A00E74E6C /* MovieInfo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieInfo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE54CDDA2A740D3A00E74E6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE54CDDC2A740D3A00E74E6C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DE54CDDE2A740D3A00E74E6C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DE54CDE12A740D3A00E74E6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DE54CDE32A740D3B00E74E6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE54CDE62A740D3B00E74E6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE54CDE82A740D3B00E74E6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE54CDEE2A740E7600E74E6C /* MovieInfoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieInfoTableViewController.swift; sourceTree = "<group>"; };
+		DE54CDF02A740EAB00E74E6C /* MovieCustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCustomTableViewCell.swift; sourceTree = "<group>"; };
+		DE54CDF22A740FB500E74E6C /* MovieInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MovieInfo.swift; path = ../../MovieInfo.swift; sourceTree = "<group>"; };
+		DE54CDF42A74155100E74E6C /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +64,14 @@
 			children = (
 				DE54CDDA2A740D3A00E74E6C /* AppDelegate.swift */,
 				DE54CDDC2A740D3A00E74E6C /* SceneDelegate.swift */,
-				DE54CDDE2A740D3A00E74E6C /* ViewController.swift */,
 				DE54CDE02A740D3A00E74E6C /* Main.storyboard */,
+				DE54CDF02A740EAB00E74E6C /* MovieCustomTableViewCell.swift */,
+				DE54CDEE2A740E7600E74E6C /* MovieInfoTableViewController.swift */,
 				DE54CDE32A740D3B00E74E6C /* Assets.xcassets */,
 				DE54CDE52A740D3B00E74E6C /* LaunchScreen.storyboard */,
 				DE54CDE82A740D3B00E74E6C /* Info.plist */,
+				DE54CDF22A740FB500E74E6C /* MovieInfo.swift */,
+				DE54CDF42A74155100E74E6C /* Movie.swift */,
 			);
 			path = MovieInfo;
 			sourceTree = "<group>";
@@ -138,9 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE54CDDF2A740D3A00E74E6C /* ViewController.swift in Sources */,
 				DE54CDDB2A740D3A00E74E6C /* AppDelegate.swift in Sources */,
+				DE54CDF32A740FB500E74E6C /* MovieInfo.swift in Sources */,
+				DE54CDF52A74155100E74E6C /* Movie.swift in Sources */,
+				DE54CDEF2A740E7600E74E6C /* MovieInfoTableViewController.swift in Sources */,
 				DE54CDDD2A740D3A00E74E6C /* SceneDelegate.swift in Sources */,
+				DE54CDF12A740EAB00E74E6C /* MovieCustomTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,9 +313,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sesac.MovieInfo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -328,9 +343,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sesac.MovieInfo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
